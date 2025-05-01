@@ -1,7 +1,7 @@
 const express = require('express');
 const logger = require("./middlewares/logger");
 const {notFound,errorHandler} = require('./middlewares/errors.js');
- require('dotenv').config();
+require('dotenv').config();
 const port = process.env.PORT || 3000;
 const bcrypt = require('bcrypt'); 
 const connectTodb = require('./config/db.js');
