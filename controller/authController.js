@@ -5,7 +5,7 @@ const{User,validationRegisterUser,validationLoginUser} = require('../models/User
 
 
 
-/**
+/** hello
  * @description Register New User
  * @route       /api/auth/register
  * @method      post
